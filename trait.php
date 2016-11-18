@@ -1,21 +1,28 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: liuyibao
  * Date: 16-11-18
  * Time: 上午9:43
  */
-trait MyTrait {
-    protected $name='';
-    public function setName($name){
-        $this->name=$name;
+trait MyTrait
+{
+    protected $name = '';
+
+    public function setName($name)
+    {
+        $this->name = $name;
     }
-    public function getName(){
+
+    public function getName()
+    {
         return $this->name;
     }
 }
 
-class Students{
+class Students
+{
     use MyTrait;
 }
 
