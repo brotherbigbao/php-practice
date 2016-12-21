@@ -1,0 +1,8 @@
+'appId' => '接入方编号'
+'merchantId' => '商户编号'
+'merchantName' => '商户名称'
+'payType' => '支付产品'
+'settleType' => '清算方式'
+'appName' => '接入方名称'
+'pageNum' => '页数'
+'pageSize' => '每页记录数'
