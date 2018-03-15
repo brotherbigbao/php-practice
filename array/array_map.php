@@ -18,3 +18,6 @@ $newArr = array_map(function ($val1, $val2) {
     return $val1 * $val2;
 }, $a, $b);
 print_r($newArr);
+
+//批量删除
+array_map('unlink', glob('*.txt'));
