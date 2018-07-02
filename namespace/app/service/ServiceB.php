@@ -15,6 +15,7 @@ class ServiceB
     public static function output()
     {
         echo "This is Service B.";
+        //\app\model\ServiceA::output();//这样写是可以的
         ServiceA::output();
     }
 }
