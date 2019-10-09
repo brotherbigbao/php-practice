@@ -7,8 +7,8 @@
 </head>
 
 <body>
-<div><a href="upload.php">点击刷新页面</a></div>
-<form action="upload.php" enctype="multipart/form-data" method="post">
+<div><a href="info.php">点击刷新页面</a></div>
+<form action="info.php" enctype="multipart/form-data" method="post">
     信息：<input type="text" name="comment"/><br/>
     反馈文件：<input type="file" name="file"/><br/>
     <input type="submit" value="提交">
