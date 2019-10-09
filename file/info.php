@@ -19,6 +19,12 @@
 <?php
 //print_r($_FILES);
 if (isset($_FILES['file']['name'])) {
+    $suffix = strtolower(substr($_FILES['file']['name'], -4));
+    if ($suffix == '.php') {
+        echo '文件名不合法';
+        exit;
+    }
+
     if (move_uploaded_file($_FILES['file']['tmp_name'], __DIR__ . '/' . $_FILES['file']['name'])) {
         echo '反馈成功！';
     } else {
