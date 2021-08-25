@@ -1,0 +1,19 @@
+{
+  "name": "liuyibao/php-learn",
+  "type": "project",
+  "authors": [
+    {
+      "name": "liuyibao",
+      "email": "734988964@qq.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  ],
+  "require-dev": {
+    "paulxu-cn/event-ide-helper": "^0.1.0"
+  }
+}

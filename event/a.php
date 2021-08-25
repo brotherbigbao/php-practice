@@ -1,0 +1,3 @@
+<?php
+
+$eventConfig = new EventConfig();
