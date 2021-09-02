@@ -15,5 +15,10 @@
   ],
   "require-dev": {
     "paulxu-cn/event-ide-helper": "^0.1.0"
+  },
+  "require": {
+    "ext-sockets": "*",
+    "ext-pcntl": "*",
+    "ext-posix": "*"
   }
 }
