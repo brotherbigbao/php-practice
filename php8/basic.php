@@ -1,6 +1,6 @@
 <?php
-<<Params("Foo", "argument")>>
-<<See("https://www.baidu.com")>>
+#[Params("Foo", "argument")]
+#[See("https://www.baidu.com")]
 function dummy($argument) {}
 
 $ref = new ReflectionFunction("dummy");
