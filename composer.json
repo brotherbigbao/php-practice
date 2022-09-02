@@ -18,7 +18,7 @@
   },
   "require": {
     "ext-sockets": "*",
-    "ext-pcntl": "*",
-    "ext-posix": "*"
+    "ext-posix": "*",
+    "symfony/process": "^5.4"
   }
 }
