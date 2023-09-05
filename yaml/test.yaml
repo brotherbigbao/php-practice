@@ -1,0 +1,35 @@
+redis:
+  addr: "127.0.0.1:6379"
+  password: "123456"
+  db: 0
+  MaxIdle: 10
+  MaxActive: 10
+  IdleTimeout: 10
+  Wait: true
+  MaxConnLifetime: 600
+
+db:
+  name: "saas_prod"
+  maxConnNum: 15
+  maxIdleConns: 5
+  master:
+    addr: "127.0.0.1:3306"
+    user: "root"
+    password: "123456"
+    weight: 1
+  slave:
+    -
+      addr: "127.0.0.1:3306"
+      user: "root"
+      password: "123456"
+      weight: 1
+    -
+      addr: "127.0.0.1:3306"
+      user: "root"
+      password: "123456"
+      weight: 1
+    -
+      addr: "127.0.0.1:3306"
+      user: "root"
+      password: "123456"
+      weight: 1
