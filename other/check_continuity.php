@@ -16,7 +16,7 @@ $list[] = new A(1,2);
 $list[] = new A(3,3);
 $list[] = new A(3,4);
 $list[] = new A(5,6);
-$list[] = new A(6,7);
+$list[] = new A(8,9);
 
 $res = checkVenueTimeContinuity($list);
 print_r($res);
