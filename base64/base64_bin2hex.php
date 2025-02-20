@@ -23,6 +23,7 @@ function string_to_hex_escape($input)
 
 
 $original_str = base64_decode("nameikaka");
+//$original_str = base64_decode("66");
 $hex_escaped_str = string_to_hex_escape($original_str);
 
 echo "原始字符串: $original_str\n";
