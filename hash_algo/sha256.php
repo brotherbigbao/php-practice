@@ -25,6 +25,8 @@ $arr = [
 foreach ($arr as $i) {
     $h = hash('sha256', $i);
 
+    //echo $h . "\n";
+
     echo getAsciiUnitsPlace($h[6])
         . getAsciiUnitsPlace($h[9])
         . getAsciiUnitsPlace($h[15])
