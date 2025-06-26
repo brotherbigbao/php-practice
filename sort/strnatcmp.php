@@ -1,6 +1,7 @@
 <?php
 $data = [
     ['serial_num' => '100'],
+    ['serial_num' => '90000'],
     ['serial_num' => 'A123'],
     ['serial_num' => 'B45'],
     ['serial_num' => 'b45'],
